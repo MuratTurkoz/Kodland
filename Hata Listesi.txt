@@ -1,0 +1,8 @@
+Oyun Belirli bir tasarım prensibi kullanılarak oluşturulmamış.
+Update methodu içersinde işlem yapmak çok maliyetli ama update methodu kontrol yapılmadan kullanılmış.
+Oyun başlarken sağlık 0 olduğu için lose ekranı çıkıyor
+Bullet bir yaşam döngüsü yok.
+Bullet için genelde bu tarz oyunlarda object pooling kullanılır.
+Nesneler sahneye yapı olarak eklenmiş parent nesnesi yok.
+Enemy için CharacterController yerine AINavigation kullanılabilir. 
+Klasör yapısı bir düzeni yok
